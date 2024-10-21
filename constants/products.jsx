@@ -13,7 +13,14 @@ export const products = [
       "/images/meddent-courses1.png",
       "/images/meddent-overview.png",
     ],
-    stack: ["Nextjs", "Tailwindcss", "shadcnUI"],
+    stack: [
+      "Nextjs",
+      "Tailwindcss",
+      "shadcnUI",
+      "Nodejs",
+      "Nestjs",
+      "Postgresql",
+    ],
     slug: "meddent",
     content: (
       <div>
