@@ -41,7 +41,7 @@ export default function About() {
 
       <div className="max-w-4xl">
         <Paragraph className=" mt-4">
-          Hey, I&aposm Rabah Sebti – a full stack developer passionate about
+          Hey, I&apos;m Rabah Sebti – a full stack developer passionate about
           solving problems and creating digital experiences that make a
           difference. This website is my little corner of the internet, where I
           share what I’m passionate about: building great web apps and turning
