@@ -79,7 +79,7 @@ export function Menu({ isOpen }) {
                                       ? "-translate-x-96 opacity-0"
                                       : "translate-x-0 opacity-100",
                                     active
-                                      ? "bg-white shadow-lg text-sky-900"
+                                      ? "bg-white shadow-lg text-sky-900 w-full"
                                       : ""
                                   )}
                                 >
@@ -89,7 +89,7 @@ export function Menu({ isOpen }) {
                             </Button>
                           </TooltipTrigger>
                           {isOpen === false && (
-                            <TooltipContent side="right">
+                            <TooltipContent side="right" className="bg-white">
                               {label}
                             </TooltipContent>
                           )}
